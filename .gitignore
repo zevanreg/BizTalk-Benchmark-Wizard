@@ -1,0 +1,25 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.user
+*.suo
+/BizTalk Benchmark Wizard - VS2010/AppFabric Artefacts/BizTalkBenchmarkWizard/obj
+/BizTalk Benchmark Wizard - VS2010/BizTalk Benchmark Wizard/obj
+/BizTalk Benchmark Wizard - VS2010/BizTalkBenchmarkWizard.PerformanceCounterHelper/obj
+/BizTalk Benchmark Wizard - VS2010/bLogical.GaugeControl/obj
+/BizTalk Benchmark Wizard - VS2010/IndigoService/bin
+/BizTalk Benchmark Wizard - VS2010/IndigoService/obj
+/BizTalk Benchmark Wizard - VS2010/LoadGen Artefacts/BizTalkBenchmarkWizard.LoadGenArtefacts/obj
+/BizTalk Benchmark Wizard - VS2010/AppFabric Artefacts/BizTalkBenchmarkWizard/bin
+/BizTalk Benchmark Wizard - VS2010/AppFabric Artefacts/BizTalkBenchmarkWizard/obj
+/BizTalk Benchmark Wizard - VS2010/BizTalk Benchmark Wizard/bin
+/BizTalk Benchmark Wizard - VS2010/BizTalkBenchmarkWizard.PerformanceCounterHelper/bin
+/BizTalk Benchmark Wizard - VS2010/bLogical.GaugeControl/bin
+/BizTalk Benchmark Wizard/BizTalk Benchmark Wizard/obj
+/BizTalk Benchmark Wizard/BizTalk Benchmark Wizard/bin
+/BizTalk Benchmark Wizard/BizTalk Benchmark Wizard Setup/Debug
+/BizTalk Benchmark Wizard/bLogical.GaugeControl/bin
+/BizTalk Benchmark Wizard/bLogical.GaugeControl/obj
+/BizTalk Benchmark Wizard/IndigoService/bin
+/BizTalk Benchmark Wizard/IndigoService/obj

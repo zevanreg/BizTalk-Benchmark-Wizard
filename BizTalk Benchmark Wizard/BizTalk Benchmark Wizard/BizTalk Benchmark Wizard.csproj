@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -44,38 +44,35 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FileMonitor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>References\FileMonitor.dll</HintPath>
+    <Reference Include="FileMonitor">
+      <HintPath>..\..\External components\FileMonitor.dll</HintPath>
     </Reference>
-    <Reference Include="FileTransport, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>References\FileTransport.dll</HintPath>
+    <Reference Include="FileTransport">
+      <HintPath>..\..\External components\FileTransport.dll</HintPath>
     </Reference>
-    <Reference Include="LoadGen, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>References\LoadGen.dll</HintPath>
+    <Reference Include="LoadGen">
+      <HintPath>..\..\External components\LoadGen.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.BizTalk.ExplorerOM, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\..\Program Files\Microsoft BizTalk Server 2009\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll</HintPath>
+    <Reference Include="Microsoft.BizTalk.ExplorerOM">
+      <HintPath>..\..\External components\Microsoft.BizTalk.ExplorerOM.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
-    <Reference Include="PerfCounterMonitor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>References\PerfCounterMonitor.dll</HintPath>
+    <Reference Include="Microsoft.ReportViewer.Common">
+      <HintPath>..\..\External components\Microsoft.ReportViewer.Common.dll</HintPath>
     </Reference>
-    <Reference Include="PerfCtrDiffMonitor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>References\PerfCtrDiffMonitor.dll</HintPath>
+    <Reference Include="Microsoft.ReportViewer.WinForms">
+      <HintPath>..\..\External components\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="PerfCounterMonitor">
+      <HintPath>..\..\External components\PerfCounterMonitor.dll</HintPath>
+    </Reference>
+    <Reference Include="PerfCtrDiffMonitor">
+      <HintPath>..\..\External components\PerfCtrDiffMonitor.dll</HintPath>
     </Reference>
     <Reference Include="PresentationFramework.Aero">
       <RequiredTargetFramework>3.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="RateMonitor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>References\RateMonitor.dll</HintPath>
+    <Reference Include="RateMonitor">
+      <HintPath>..\..\External components\RateMonitor.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -97,13 +94,13 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Data" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml" />
     <Reference Include="UIAutomationProvider">
       <RequiredTargetFramework>3.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="WcfTransport, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>References\WcfTransport.dll</HintPath>
+    <Reference Include="WcfTransport">
+      <HintPath>..\..\External components\WcfTransport.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase">
       <RequiredTargetFramework>3.0</RequiredTargetFramework>
@@ -114,9 +111,8 @@
     <Reference Include="PresentationFramework">
       <RequiredTargetFramework>3.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="WPFToolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>References\WPFToolkit.dll</HintPath>
+    <Reference Include="WPFToolkit">
+      <HintPath>..\..\External components\WPFToolkit.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

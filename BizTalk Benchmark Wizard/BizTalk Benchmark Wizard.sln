@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bLogical.GaugeControl", "bLogical.GaugeControl\bLogical.GaugeControl.csproj", "{C78E61D3-799D-4959-8EB9-E14534CEA9E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalk Benchmark Wizard", "BizTalk Benchmark Wizard\BizTalk Benchmark Wizard.csproj", "{56A5B68A-B031-42CC-A897-5D128BB8B20E}"
@@ -10,24 +12,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndigoService", "IndigoService\IndigoService.csproj", "{28BA7B2C-67BE-4568-821C-B7054509BF08}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs08.codeplex.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = BizTalk\u0020Benchmark\u0020Wizard\\BizTalk\u0020Benchmark\u0020Wizard.csproj
-		SccProjectName1 = BizTalk\u0020Benchmark\u0020Wizard
-		SccLocalPath1 = BizTalk\u0020Benchmark\u0020Wizard
-		SccProjectUniqueName2 = bLogical.GaugeControl\\bLogical.GaugeControl.csproj
-		SccProjectName2 = bLogical.GaugeControl
-		SccLocalPath2 = bLogical.GaugeControl
-		SccProjectUniqueName3 = BizTalk\u0020Benchmark\u0020Wizard\u0020Setup\\BizTalk\u0020Benchmark\u0020Wizard\u0020Setup.vdproj
-		SccProjectName3 = BizTalk\u0020Benchmark\u0020Wizard\u0020Setup
-		SccLocalPath3 = BizTalk\u0020Benchmark\u0020Wizard\u0020Setup
-		SccProjectUniqueName4 = IndigoService\\IndigoService.csproj
-		SccProjectName4 = IndigoService
-		SccLocalPath4 = IndigoService
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
