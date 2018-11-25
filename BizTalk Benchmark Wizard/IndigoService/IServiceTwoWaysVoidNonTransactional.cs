@@ -12,7 +12,7 @@ namespace IndigoService
     public interface IServiceTwoWaysVoidNonTransactional
     {
         // Methods
-        [OperationContract(Action = "*", IsOneWay = false)]
+        [OperationContract(IsOneWay = false)]
         void ConsumeMessage(Message msg);
 
         [OperationContract(IsOneWay = false)]

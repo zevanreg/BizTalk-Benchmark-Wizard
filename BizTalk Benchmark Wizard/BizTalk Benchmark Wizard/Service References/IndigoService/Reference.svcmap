@@ -17,10 +17,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:59288/WCFService3/Service.svc?wsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:8080/?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="d2619a07-89b0-4d9a-969e-fd3a6ab26aa2" SourceId="1" SourceUrl="http://localhost:59288/WCFService3/Service.svc?wsdl" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="803bbce3-aacd-4848-b521-9f6aa7efe735" SourceId="1" SourceUrl="http://localhost:8080/?xsd=xsd1" />
+    <MetadataFile FileName="IndigoServiceTwoWaysVoidNonTransactional.wsdl" MetadataType="Wsdl" ID="a322a078-e009-43bd-8eb3-a94ac8d329e2" SourceId="1" SourceUrl="http://localhost:8080/?wsdl" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="f42b7802-6c94-489f-b175-f9d5ae7fcee6" SourceId="1" SourceUrl="http://localhost:8080/?xsd=xsd0" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="ceb59695-4de0-45ca-8b70-59398123616a" SourceId="1" SourceUrl="http://localhost:8080/?xsd=xsd3" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="01d18b5d-7cb9-4ae1-9d54-de6ec01bca3b" SourceId="1" SourceUrl="http://localhost:8080/?xsd=xsd2" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
